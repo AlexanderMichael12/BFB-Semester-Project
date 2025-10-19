@@ -10,8 +10,13 @@
   --shadow: 0 10px 30px rgba(0,0,0,.06);
 }
 
-* { box-sizing: border-box; }
-html, body { height: 100%; }
+* { 
+  box-sizing: border-box;
+ }
+
+html, body { 
+  height: 100%; 
+}
 
 body {
   margin: 0;
@@ -36,10 +41,20 @@ body {
   text-align: center;
 }
 
-.wrap form { display: grid; gap: 16px; }
-.wrap .field { display: grid; gap: 8px; }
+.wrap form { 
+  display: grid; 
+  gap: 16px; 
+}
 
-.wrap label { font-size: .9rem; font-weight: 500; }
+.wrap .field { 
+  display: grid; 
+  gap: 8px; 
+}
+
+.wrap label { 
+  font-size: .9rem; 
+  font-weight: 500; 
+}
 
 .wrap input {
   width: 100%;
@@ -52,12 +67,27 @@ body {
   outline: none;
   transition: box-shadow .15s;
 }
-.wrap input:focus { box-shadow: var(--ring); }
+.wrap input:focus { 
+  box-shadow: 
+  var(--ring); 
+}
 
-.row { display: flex; justify-content: flex-end; margin-top: -6px}
+.row { 
+  display: flex; 
+  justify-content: flex-end; 
+  margin-top: -6px
+}
 
-.link { color: var(--ink); text-decoration: none; font-size: .85rem; font-weight: 600; }
-.link:hover { text-decoration: underline; }
+.link { 
+  color: var(--ink); 
+  text-decoration: none; 
+  font-size: .85rem; 
+  font-weight: 600; 
+}
+
+.link:hover {
+  text-decoration: underline; 
+}
 
 button {
   height: 46px;
@@ -67,8 +97,13 @@ button {
   transition: box-shadow .2s, opacity .2s;
 }
 
-.btn-primary { border: 2px solid var(--accent); background: var(--card); }
-.btn-primary:hover { box-shadow: var(--ring); }
+.btn-primary { 
+  border: 2px solid var(--accent); background: var(--card); 
+}
+
+.btn-primary:hover { 
+  box-shadow: var(--ring);
+ }
 
 .btn-ghost {
   border: 2px solid var(--accent);
@@ -79,9 +114,14 @@ button {
   gap: 10px;
   width: 100%;
 }
-.btn-ghost:hover { box-shadow: var(--ring); }
 
-.google img { width: 18px; height: 18px; }
+.btn-ghost:hover { 
+  box-shadow: var(--ring); 
+}
+
+.google img { 
+  width: 18px; height: 18px; 
+}
 
 .or {
   display: grid;
@@ -91,11 +131,29 @@ button {
   color: var(--muted);
   margin: 8px 0;
 }
-.or::before, .or::after { content: ""; height: 1px; background: #e5e0db; }
 
-.footer { text-align: center; font-size: .95rem; margin-top: 18px; color: #5a5a5a; }
-.footer a { color: var(--ink); text-decoration: none; font-weight: 700; }
-.footer a:hover { text-decoration: underline; }
+.or::before, .or::after { 
+  content: ""; 
+  height: 1px; 
+  background: #e5e0db; 
+}
+
+.footer { 
+  text-align: center; 
+  font-size: .95rem; 
+  margin-top: 18px; 
+  color: #5a5a5a;
+}
+
+.footer a { 
+  color: var(--ink); 
+  text-decoration: none; 
+  font-weight: 700; 
+}
+
+.footer a:hover { 
+  text-decoration: underline;
+}
 
 .dashboard {
   width: min(95%, 1100px);
@@ -111,10 +169,20 @@ button {
   padding: 10px;
 }
 
-.highlight { border-color: black; background: white; }
+.highlight { 
+  border-color: black; 
+  background: white;
+ }
 
-.grid-two  { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
-.grid-three{ display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+.grid-two  { display: grid; 
+  grid-template-columns: 1fr 1fr; 
+  gap: 20px;
+ }
+
+.grid-three{ display: grid; 
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 12px;
+ }
 
 .card h2, .card h3, .card h4 {
   margin-top: 0px;
@@ -129,7 +197,9 @@ button {
   flex-direction: column;
   margin-bottom: 10px;
 }
-.card .form-row:last-child{ margin-bottom: 0; }
+.card .form-row:last-child{ 
+  margin-bottom: 0; 
+}
 
 .card .form-row label{
   font-size: .9rem;
@@ -142,6 +212,7 @@ button {
 .card input[type="number"],
 .card input[type="email"],
 .card input[type="password"],
+
 .card textarea{
   border: 2px solid black;
   border-radius: 6px;
@@ -152,10 +223,24 @@ button {
   color: black;
 }
 
-textarea { min-height: 100px; width: 100%; resize: none; }
+textarea { 
+  min-height: 100px; 
+  width: 100%; 
+  resize: none; }
 
-.progress { display: flex; gap: 6px; }
-.progress div { flex: 1; height: 14px; background: #c86e2b; border-radius: 2px; border: solid black; size: 1px;}
+.progress { 
+  display: flex; 
+  gap: 6px; 
+}
+
+.progress div { 
+  flex: 1; 
+  height: 14px; 
+  background: #c86e2b; 
+  border-radius: 2px; 
+  border: solid black; 
+  size: 1px;
+}
 
 .satisfaction {
   border: 2px solid black;
@@ -166,7 +251,10 @@ textarea { min-height: 100px; width: 100%; resize: none; }
   justify-items: center;
 }
 
-.dropdown details { margin: 0; padding: 0; }
+.dropdown details { 
+  margin: 0; 
+  padding: 0; 
+}
 
 .dropdown summary {
   cursor: pointer;
@@ -176,17 +264,29 @@ textarea { min-height: 100px; width: 100%; resize: none; }
   list-style: none;
   display: flex; align-items: center;
 }
-.dropdown summary::-webkit-details-marker { display: none; }
+.dropdown summary::-webkit-details-marker {
+  display: none; 
+}
 
 .dropdown summary::after {
   content: "\25B6";
   margin-left: auto;
   transition: transform .15s ease;
 }
-.dropdown details[open] summary::after { transform: rotate(90deg); }
+.dropdown details[open] summary::after { 
+  transform: rotate(90deg); 
+}
 
-.checklist { list-style: none; padding: 0 2px; margin: 6px 0 0; }
-.checklist li { padding: 6px 0; }
+.checklist { 
+  list-style: none; 
+  padding: 0 2px; 
+  margin: 6px 0 0; 
+}
+
+.checklist li { 
+  padding: 6px 0; 
+}
+
 .checklist label {
   display: inline-flex;
   align-items: center;
@@ -194,6 +294,7 @@ textarea { min-height: 100px; width: 100%; resize: none; }
   margin: 0;
   font-size: .95rem;
 }
+
 .checklist input[type="checkbox"] {
   margin: 0;
   width: auto;
@@ -233,7 +334,11 @@ textarea { min-height: 100px; width: 100%; resize: none; }
   align-items: end;
   margin-top: 8px;
 }
-.toolbar .form-row.compact{ margin-bottom: 0; }
+
+.toolbar .form-row.compact { 
+  margin-bottom: 0; 
+}
+
 .toolbar label{
   font-size: .85rem;
   font-weight: 700;
@@ -241,6 +346,7 @@ textarea { min-height: 100px; width: 100%; resize: none; }
 }
 
 .toolbar input[type="text"],
+
 .toolbar select{
   border: 2px solid black;
   border-radius: 6px;
@@ -257,18 +363,22 @@ textarea { min-height: 100px; width: 100%; resize: none; }
   }
 }
 
-.table-responsive{ overflow-x: auto; }
+.table-responsive{ 
+  overflow-x: auto; 
+}
+
 .table{
   width: 100%;
   border-collapse: collapse;
 }
-.table th,
-.table td{
+
+.table th, .table td{
   text-align: left;
   padding: .6rem .75rem;
   border-top: 1px solid black;
   vertical-align: middle;
 }
+
 .table thead th{
   border-bottom: 2px solid black;
   background: white;
