@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Home Dashboard</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <main class="dashboard">
+
+  <section class="card dropdown">
+  <details>
+    <summary>Company Information</summary>
+    <ul class="checklist">
+      <li><a href="vehicle.html"><span>Vehicle Specific Dashboard</span></a></li>
+      <li><a href="drivers.html"><span>Driver Contact Details</span></a></li>
+      <li><a href="history.html"><span>History</span></a></li>
+    </ul>
+  </details>
+  </section>
+
+    <section class="grid-two">
+      <div class="card highlight">
+        <h3>Overall Vehicle Capacity Utilization (%)</h3>
+      </div>
+      <div class="card">
+        <h3>Live Logistics Tracking</h3>
+        <div class="form-row">
+          <label for="avgDelay">Average Delay Time:</label>
+          <input id="avgDelay" type="text" />
+        </div>
+        <div class="form-row">
+          <label for="avgIdle">Average Idle Time:</label>
+          <input id="avgIdle" type="text" />
+        </div>
+        <div class="form-row">
+          <label for="numOrders">Number of Orders:</label>
+          <input id="numOrders" type="text" />
+        </div>
+        <div class="form-row">
+          <label for="billingAcc">Billing Accuracy (%):</label>
+          <input id="billingAcc" type="text" />
+        </div>
+
+        <p>Daily Order Completion:</p>
+        <div class="progress">
+          <div></div><div></div><div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="card highlight">
+      <h3>Order Management</h3>
+      <div class="grid-three">
+        <div class="form-row">
+          <label for="onTime">On-Time Deliveries (%):</label>
+          <input id="onTime" type="text" />
+        </div>
+        <div class="form-row">
+          <label for="backlogs">Backlogs (%):</label>
+          <input id="backlogs" type="text" />
+        </div>
+        <div class="form-row">
+          <label for="rejected">Rejected Orders:</label>
+          <input id="rejected" type="text" />
+        </div>
+        <div class="form-row">
+          <label for="orderAcc">Order Accuracy (%):</label>
+          <input id="orderAcc" type="text" />
+        </div>
+        <div class="form-row">
+          <label for="avgReturn">Average Return:</label>
+          <input id="avgReturn" type="text" />
+        </div>
+        <div class="form-row">
+          <label for="dispatch">On-Time Dispatch (%):</label>
+          <input id="dispatch" type="text" />
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h3>Customer Relations</h3>
+      <div class="grid-two">
+        <textarea placeholder="Queries and Complaints"></textarea>
+        <div class="satisfaction">
+          <p>Overall Satisfaction Score</p>
+          <input type="text" />
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h3><a href="index.html">Sign Out</a></h3>
+    </section>
+
+  </main>
+</body>
+</html>
