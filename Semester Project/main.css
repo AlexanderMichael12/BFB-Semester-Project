@@ -282,8 +282,6 @@ textarea { min-height: 100px; width: 100%; resize: none; }
   gap: 10px;
 }
 
-.name{ font-weight: 700; }
-
 h3 a {
   color: black; 
   font-weight: 700;
