@@ -7,35 +7,27 @@
   <link rel="stylesheet" href="main.css">
 </head>
 <body>
-  <main class="wrap" aria-label="Login form">
-    <div class="logo" aria-hidden="true"></div>
+  <main class="wrap">
     <h1>Sign in</h1>
-
-    <form action="home.html" method="post" novalidate>
+    <form action="home.html" method="get">
       <div class="field">
         <label for="email">Email address or username</label>
-        <input id="email" name="email" type="text" inputmode="email" autocomplete="username" required />
+        <input id="email" name="email" type="text" required />
       </div>
-
       <div class="field">
         <label for="password">Password</label>
-        <input id="password" name="password" type="password" autocomplete="current-password" required />
+        <input id="password" name="password" type="password" required />
       </div>
-
       <div class="row">
         <a class="link" href="#">Forgot password?</a>
       </div>
-
       <button type="submit" class="btn-primary">Sign in</button>
-
       <div class="or">or</div>
-
-      <button type="button" class="btn-ghost google">
+      <button type="submit" formaction="home.html" class="btn-ghost google">
         <img alt="" src="https://www.gstatic.com/images/branding/product/1x/gsa_512dp.png">
         <span>Sign in with Google</span>
       </button>
     </form>
-
     <p class="footer">
       Don’t you have an account?
       <a href="#">Sign Up</a>
