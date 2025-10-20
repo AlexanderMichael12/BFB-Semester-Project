@@ -10,11 +10,11 @@
   --shadow: 0 10px 30px rgba(0,0,0,.06);
 }
 
-* { 
+* {
   box-sizing: border-box;
  }
 
-html, body { 
+html, body {
   height: 100%; 
 }
 
@@ -41,17 +41,17 @@ body {
   text-align: center;
 }
 
-.wrap form { 
+.wrap form {
   display: grid; 
   gap: 16px; 
 }
 
-.wrap .field { 
+.wrap .field {
   display: grid; 
   gap: 8px; 
 }
 
-.wrap label { 
+.wrap label {
   font-size: .9rem; 
   font-weight: 500; 
 }
@@ -67,18 +67,19 @@ body {
   outline: none;
   transition: box-shadow .15s;
 }
-.wrap input:focus { 
+
+.wrap input:focus {
   box-shadow: 
   var(--ring); 
 }
 
-.row { 
+.row {
   display: flex; 
   justify-content: flex-end; 
   margin-top: -6px
 }
 
-.link { 
+.link {
   color: var(--ink); 
   text-decoration: none; 
   font-size: .85rem; 
@@ -97,11 +98,11 @@ button {
   transition: box-shadow .2s, opacity .2s;
 }
 
-.btn-primary { 
+.btn-primary {
   border: 2px solid var(--accent); background: var(--card); 
 }
 
-.btn-primary:hover { 
+.btn-primary:hover {
   box-shadow: var(--ring);
  }
 
@@ -119,7 +120,7 @@ button {
   box-shadow: var(--ring); 
 }
 
-.google img { 
+.google img {
   width: 18px; height: 18px; 
 }
 
@@ -132,26 +133,26 @@ button {
   margin: 8px 0;
 }
 
-.or::before, .or::after { 
+.or::before, .or::after {
   content: ""; 
   height: 1px; 
   background: #e5e0db; 
 }
 
-.footer { 
+.footer {
   text-align: center; 
   font-size: .95rem; 
   margin-top: 18px; 
   color: #5a5a5a;
 }
 
-.footer a { 
+.footer a {
   color: var(--ink); 
   text-decoration: none; 
   font-weight: 600; 
 }
 
-.footer a:hover { 
+.footer a:hover {
   text-decoration: underline;
 }
 
@@ -169,17 +170,19 @@ button {
   padding: 10px;
 }
 
-.highlight { 
+.highlight {
   border-color: black; 
   background: white;
  }
 
-.grid-two  { display: grid; 
+.grid-two {
+  display: grid; 
   grid-template-columns: 1fr 1fr; 
   gap: 20px;
  }
 
-.grid-three{ display: grid; 
+.grid-three {
+  display: grid; 
   grid-template-columns: repeat(3, 1fr); 
   gap: 12px;
  }
@@ -191,13 +194,13 @@ button {
   font-weight: 700;
 }
 
-
-.card .form-row{
+.card .form-row {
   display: flex;
   flex-direction: column;
   margin-bottom: 10px;
 }
-.card .form-row:last-child{ 
+
+.card .form-row:last-child {
   margin-bottom: 0; 
 }
 
@@ -223,17 +226,17 @@ button {
   color: black;
 }
 
-textarea { 
+textarea {
   min-height: 100px; 
   width: 100%; 
   resize: none; }
 
-.progress { 
+.progress {
   display: flex; 
   gap: 6px; 
 }
 
-.progress div { 
+.progress div {
   flex: 1; 
   height: 14px; 
   background: #c86e2b; 
@@ -251,7 +254,7 @@ textarea {
   justify-items: center;
 }
 
-.dropdown details { 
+.dropdown details {
   margin: 0; 
   padding: 0; 
 }
@@ -264,6 +267,7 @@ textarea {
   list-style: none;
   display: flex; align-items: center;
 }
+
 .dropdown summary::-webkit-details-marker {
   display: none; 
 }
@@ -273,17 +277,18 @@ textarea {
   margin-left: auto;
   transition: transform .15s ease;
 }
+
 .dropdown details[open] summary::after { 
   transform: rotate(90deg); 
 }
 
-.checklist { 
+.checklist {
   list-style: none; 
   padding: 0 2px; 
   margin: 6px 0 0; 
 }
 
-.checklist li { 
+.checklist li {
   padding: 6px 0; 
 }
 
@@ -335,7 +340,7 @@ textarea {
   margin-top: 8px;
 }
 
-.toolbar .form-row.compact { 
+.toolbar .form-row.compact {
   margin-bottom: 0; 
 }
 
@@ -345,9 +350,7 @@ textarea {
   margin: 0 0 4px 0;
 }
 
-.toolbar input[type="text"],
-
-.toolbar select{
+.toolbar input[type="text"],.toolbar select {
   border: 2px solid black;
   border-radius: 6px;
   padding: 8px 10px;
@@ -356,14 +359,14 @@ textarea {
   color: black;
 }
 
-@media (max-width: 700px){
+@media (max-width: 700px) {
   .toolbar{
     grid-template-columns: 1fr;
     align-items: stretch;
   }
 }
 
-.table-responsive{ 
+.table-responsive {
   overflow-x: auto; 
 }
 
@@ -372,13 +375,13 @@ textarea {
   border-collapse: collapse;
 }
 
-.table th, .table td{
+.table th, .table td {
   text-align: left;
   padding: .6rem .75rem;
   vertical-align: middle;
 }
 
-.table td{
+.table td {
   border-top: 1px solid black;
 }
 
@@ -386,14 +389,14 @@ textarea {
   border-top: 2px solid black;
 }
 
-.table thead th{
+.table thead th {
   border-bottom: 2px solid black;
   background: white;
   position: sticky;
   top: 0;
 }
 
-.driver-cell{
+.driver-cell {
   display: inline-flex;
   align-items: center;
   gap: 10px;
