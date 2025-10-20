@@ -239,10 +239,14 @@ textarea {
 .progress div {
   flex: 1; 
   height: 14px; 
-  background: #c86e2b; 
+  background: orange; 
   border-radius: 2px; 
   border: solid black; 
   size: 1px;
+}
+
+.progress div:nth-child(4) {
+  background: var(--bg);
 }
 
 .satisfaction {
