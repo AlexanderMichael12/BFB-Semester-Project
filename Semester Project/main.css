@@ -324,7 +324,6 @@ textarea {
 }
 
 .checklist a::before {
-  content: "\25B6";
   font-weight: bold;
 }
 
