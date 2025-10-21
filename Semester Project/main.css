@@ -1,11 +1,11 @@
 :root {
   --ink: black;
-  --bg: #faf9f7;
+  --background: #eaf4ff;
   --card: #ffffff;
   --accent: #5d371d;
   --accent-2: #c86e2b;
   --muted: #8c8c8c;
-  --radius: 14px;
+  --radius: 20px;
   --ring: 0 0 0 4px rgba(200,110,43,.15);
   --shadow: 0 10px 30px rgba(0,0,0,.06);
 }
@@ -22,7 +22,7 @@ body {
   margin: 0;
   font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
   color: var(--ink);
-  background: var(--bg);
+  background: var(--background);
   display: grid;
   place-items: center;
 }
@@ -246,7 +246,7 @@ textarea {
 }
 
 .progress div:nth-child(4) {
-  background: var(--bg);
+  background: var(--background);
 }
 
 .satisfaction {
@@ -426,4 +426,15 @@ h3 a:hover {
   width: 100%;
   height: 37px;
   border-radius: 6px;
+}
+
+.pie-chart {
+  width: 100%;
+  height: 300px;
+  border-radius: 50%;
+  background: conic-gradient(
+    orange 0% 65%,
+    white 65% 100%);
+  margin: 20px auto;
+  max-width: 300px;
 }
