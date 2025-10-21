@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>History Dashboard</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <main class="dashboard">
+    <section class="grid-two">
+      <div class="card highlight">
+        <h3>Vehicle History Overview</h3>
+      </div>
+      <div class="card">
+        <h3>Driver Performance History</h3>
+        <div class="form-row">
+          <label for="avgDelay">Average Delay Time:</label>
+          <input id="avgDelay" type="text" />
+        </div>
+        <div class="form-row">
+          <label for="avgIdle">Average Idle Time:</label>
+          <input id="avgIdle" type="text" />
+        </div>
+        <div class="form-row">
+          <label for="numOrders">Number of Trips:</label>
+          <input id="numOrders" type="text" />
+        </div>
+        <div class="form-row">
+          <label for="billingAcc">Performance Accuracy (%):</label>
+          <input id="billingAcc" type="text" />
+        </div>
+
+        <p>Daily Completion Status:</p>
+        <div class="progress">
+          <div></div><div></div><div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="card highlight">
+      <h3>Order History</h3>
+      <div class="grid-three">
+        <div class="form-row">
+          <label for="onTime">On-Time Orders (%):</label>
+          <input id="onTime" type="text" />
+        </div>
+        <div class="form-row">
+          <label for="backlogs">Backlogs (%):</label>
+          <input id="backlogs" type="text" />
+        </div>
+        <div class="form-row">
+          <label for="rejected">Rejected Orders:</label>
+          <input id="rejected" type="text" />
+        </div>
+        <div class="form-row">
+          <label for="orderAcc">Order Accuracy (%):</label>
+          <input id="orderAcc" type="text" />
+        </div>
+        <div class="form-row">
+          <label for="avgReturn">Average Returns:</label>
+          <input id="avgReturn" type="text" />
+        </div>
+        <div class="form-row">
+          <label for="dispatch">On-Time Dispatch (%):</label>
+          <input id="dispatch" type="text" />
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h3>Customer Feedback History</h3>
+      <div class="grid-two">
+        <textarea placeholder="Customer Queries and Complaints"></textarea>
+        <div class="satisfaction">
+          <p>Overall Satisfaction Score</p>
+          <input type="text" />
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+      <p>
+        <a class="link" href="home.html">
+          <i class="bi bi-arrow-left-circle"></i> Back to Dashboard
+        </a>
+      </p>
+    </section>
+
+  </main>
+</body>
+</html>
