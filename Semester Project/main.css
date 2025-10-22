@@ -79,7 +79,7 @@ body {
 }
 
 .link {
-  color: var(--ink); 
+  color: rgb(255, 68, 0); 
   text-decoration: none; 
   font-size: .85rem; 
   font-weight: 600; 
@@ -146,7 +146,7 @@ button {
 }
 
 .footer a {
-  color: var(--ink); 
+  color: rgb(255, 68, 0); 
   text-decoration: none; 
   font-weight: 600; 
 }
