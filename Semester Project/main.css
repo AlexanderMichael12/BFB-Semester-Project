@@ -19,7 +19,7 @@ html, body {
 }
 
 body {
-  margin: 0;
+  margin: 0px;
   font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
   color: var(--ink);
   background: var(--background);
@@ -237,7 +237,7 @@ h5 {
   line-height: 1.2;
   text-align: center;
   margin-top: 0px;
-  margin-bottom: 12px;
+  margin-bottom: 2px;
   padding: 2px;
 }
 
