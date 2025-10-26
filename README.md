@@ -70,7 +70,7 @@ The database includes sample entries for testing:
 
 1. Open the project folder in VS Code.
 2. Double-click the `index.html` and the web browser will open up.
-3. Navigate the different pages to manage the drivers, trucks or view the overall company history.
+3. Navigate the different pages to manage the drivers and trucks or view the overall company history.
 
 ## Technologies Used
 
