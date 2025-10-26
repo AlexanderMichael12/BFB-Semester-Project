@@ -15,7 +15,6 @@ The system provides:
 **Tech Stack**
 - Frontend: HTML, CSS
 - Data Layer: SQL schema (`TruckDelivery.sql`) + SQLite demo DB (`TruckDelivery.db`)
-- Optional future extension: Flask + Bootstrap 
 
 ---
 
