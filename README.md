@@ -56,7 +56,7 @@ The database includes sample entries for testing:
 - Example maintenance logs and odometer readings.
 
 ## File Structure
-
+```
 ├─ index.html           # Main dashboard / entry point.
 ├─ home.html            # Dashboard with navigation cards.
 ├─ drivers.html         # Manage and view drivers.
@@ -66,7 +66,7 @@ The database includes sample entries for testing:
 ├─ TruckDelivery.sql    # Database schema.
 ├─ TruckDelivery.db     # SQLite sample database.
 └─ README.md            # Documentation
-
+```
 ## Usage
 
 1. Open the project folder in VS Code.
