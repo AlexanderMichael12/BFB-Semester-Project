@@ -1,6 +1,6 @@
 :root {
   --ink: black;
-  --background: #eef5fd;
+  --background: #1e1e1e;
   --card: #ffffff;
   --accent: #5d371d;
   --accent-2: #c86e2b;
@@ -477,6 +477,7 @@ textarea {
 }
 
 .pie-chart {
+  position: relative;
   width: 100%;
   height: 300px;
   border-radius: 50%;
@@ -485,9 +486,21 @@ textarea {
     white 65% 100%);
   margin: 20px auto;
   max-width: 300px;
+  overflow: hidden;
+}
+
+.pie-label {
+  position: absolute;
+  top: 30%;
+  left: 70%;
+  transform: translate(-50%, -45%);
+  font-size: 2rem;
+  font-weight: 700;
+  color: black; 
 }
 
 .pie-chart-history {
+  position: relative ;
   width: 100%;
   height: 300px;
   border-radius: 50%;
@@ -498,7 +511,18 @@ textarea {
   max-width: 300px;
 }
 
+.pie-label-history {
+  position: absolute;
+  top: 30%;
+  left: 70%;
+  transform: translate(-50%, -45%);
+  font-size: 2rem;
+  font-weight: 700;
+  color: black; 
+}
+
 .pie-chart-vehicle {
+  position: relative ;
   width: 350px;
   height: 350px;
   border-radius: 50%;
@@ -506,6 +530,16 @@ textarea {
     green 0% 95%,
     white 95% 100%);
   margin: 20px auto;
+}
+
+.pie-label-vehicle {
+  position: absolute;
+  top: 30%;
+  left: 70%;
+  transform: translate(-50%, -45%);
+  font-size: 2rem;
+  font-weight: 700;
+  color: black; 
 }
 
 .card {
@@ -524,7 +558,7 @@ textarea {
   flex: 1;
 }
 
-/* Target only Logistics Tracking card */
+
 .logistics-card {
   display: flex;
   flex-direction: column;
