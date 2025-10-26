@@ -524,5 +524,18 @@ textarea {
   flex: 1;
 }
 
+/* Target only Logistics Tracking card */
+.logistics-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;  /* spread rows evenly */
+}
+
+.logistics-card .form-row {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
 
