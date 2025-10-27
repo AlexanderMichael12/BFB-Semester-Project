@@ -562,7 +562,7 @@ textarea {
 .logistics-card {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;  /* spread rows evenly */
+  justify-content: space-between;
 }
 
 .logistics-card .form-row {
