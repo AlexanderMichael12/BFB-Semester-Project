@@ -1,14 +1,14 @@
 #   BFB Semester Project - Supply Chain Web Appliaction
 
 This project is a **web-based logistics management system** developed for BFB321. 
-It allows for users to manage **drivers, trucks, deliveries, odometer logs, and maintenance records** through a simple HTML/CSS interface with a supporting SQL schema.
+It enables users to manage **drivers, trucks, deliveries, odometer logs, and maintenance records** through a simple HTML/CSS interface with a supporting SQL schema.
 
 ---
 
 ## Overview
 The system provides:
 - A dashboard linking all main modules
-- HTML pages for drivers, vehicles, delivery history
+- HTML pages for drivers, vehicles and delivery history
 - A shared CSS file for consistent styling
 - An SQL schema and demo database to support backend integration in the future
 
@@ -23,8 +23,8 @@ The system provides:
   Landing page with navigation to different modules.
 - **Driver Management (`drivers.html`)**
   List of drivers with contact details and assigned vehicles.
-- **Vehicle Management (`vehicle.html`)**
-  Truck information including codes and license plates.
+- **Individual Vehicle Management (`vehicle.html`)**
+  Displays vehicle specific information including service records, live vehicle tracking and useful metrics.
 - **Delivery History (`history.html`)**
   Records of completed deliveries.
 - **Styling (`main.css`)**
